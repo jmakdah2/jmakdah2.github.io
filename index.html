@@ -1,23 +1,99 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music</title>
+    <link rel = "stylesheet" type = "text/css" href = "music.css">
+</head>
+<body>
+    <h2> Genre Genius </h2>    
+ <!---   <ul>
+        <li><a href = "#">alternative</a></li>
+        <li><a href = "#">blues</a></li>
+        <li><a href = "#">children's music</a></li>
+        <li><a href = "#">classical</a></li>
+        <li><a href = "#">comedy</a></li>
+        <li><a href = "#">country</a></li>
+        <li><a href = "#">dance</a></li>
+        <li><a href = "#">electronic</a></li>
+        <li><a href = "#">jazz</a></li>
+-->
 
-<div class="home">
+<svg width = "1000" height = "1000" xmlns:xlink>
 
-  <h1 class="page-heading">Posts</h1>
+    <a xlink:href = "https://www.google.com/">
+    <circle class = "alternative" cx = "467" cy = "260" r = "95" fill = "#AFCD95" fill-opacity = "0.5" />
+    </a>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <a xlink:href = "https://www.google.com/">
+        <circle class = "blues" cx = "700" cy = "120" r = "120" fill = "green" fill-opacity = "0.4" />
+    </a>    
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <a xlink:href = "https://www.google.com/">
+        <circle class = "classical" cx = "115" cy = "450" r = "110" fill = "green" fill-opacity = "0.4" />
+        <text x = "100" y = "450">classical</text>
+    </a>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <a xlink:href = "https://www.google.com/">
+        <circle class = "country" cx = "800" cy = "360" r = "70" fill = "green" fill-opacity = "0.4" />
+    </a>
 
-</div>
+    <a xlink:href = "https://www.google.com/">
+        <circle class = "singer" cx = "350" cy = "155" r = "90" fill = "green" fill-opacity = "0.4" />
+        <text x= "280" y="170">singer/songwriter</text>
+   </a>
+
+    <a xlink:href = "https://www.google.com/">
+        <circle class = "alternative" cx = "210" cy = "260" r = "60" fill = "red" fill-opacity = "0.4" />
+        <text x = "160" y="275">Alternative</text>
+    </a>
+       
+  
+    <a xlink:href = "https://www.google.com/">
+        <circle class = "electronic" cx = "620" cy = "300" r = "75" fill = "red" fill-opacity = "0.4" />
+        <text x = "600" y = "300">electronic</text>
+    </a>
+
+    <a xlink:href = "https://www.google.com/">
+        <circle class = "hipHop" cx = "130" cy = "130" r="85" fill = "deepSkyBlue" fill-opacity = "0.4"/>
+        <text x="110" y="135">Hip Hop/Rap</text>
+         </a>
+
+    <a xlink:href = "https://www.google.com/">
+        <circle class = "jazz" cx = "550" cy = "435" r = "110" fill = "yellow" fill-opacity = "0.4"/>
+        <text x = "540" y = "430" fill = "black" font-size = "16px">jazz</text>
+    </a>
+
+    
+    <a xlink:href = "https://www.google.com/">
+        <circle class = "latin" cx = "300" cy = "400" r = "93" fill = "yellow" fill-opacity = "0.4" />
+        <text x = "300" y = "400">latin</text> 
+    </a>
+
+
+
+    <a xlink:href = "https://www.google.com/">
+        <circle class = "opera" cx = "440" cy = "100" r = "50" fill = "orange" fill-opacity = "0.4"/>
+        <text x = "420" y = "90">opera</text>
+    </a>
+    
+
+    </svg>
+
+
+
+    <svg width="500" height="250">
+    <text x = "140" y="90">LATIN</text>
+        <defs>
+            <pattern id = "img" patternUnits = "userSpaceOnUse" width = "100" height = "100">
+            <image xlink:href = "https://s-media-cache-ak0.pinimg.com/236x/50/0a/af/500aafe468d0352e6462ef3b718cf11f.jpg" x="0" y="0" width = "100" height="100"/>
+            </pattern>
+            </defs>
+            <path d="M 150,90
+                    a50,50 0 1 1 -100,0 50,50 0 1 1 100,0"
+             fill="url(#img)" />
+    </svg>
+       
+</body>
+</html>
+
+

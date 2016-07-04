@@ -1,0 +1,47 @@
+body {
+    background-color: #F0F5FF;
+    background-size: 100%, 100%;
+    font-family: Optima;
+    font-color: #FFFFFF;
+}
+h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+}
+li a {
+    text-size:40px;
+    text-decoration: none;
+}
+.alternative:hover {
+    r: 80px;
+    fill-opacity: 0.5;
+}
+.jazz:hover {
+    r: 130px;
+    fill-opacity: 0.5;
+}
+.electronic:hover {
+    r: 80px;
+    fill-opacity: 0.5;
+}
+.classical:hover {
+    r: 120px;
+    fill-opacity: 0.5;
+}
+.latin:hover {
+    r: 110px;
+    fill-opacity: 0.5;
+}
+.opera:hover {
+    r: 70px;
+    fill-opacity: 0.5;
+}
+.hipHop:hover {
+    r:105px;
+    fill-opacity: 0.5;
+}
+.singer:hover {
+    r: 110px;
+    fill-opacity: 0.5;
+}
