@@ -1,5 +1,5 @@
 body {
-    background-color: #F0F5FF;
+    background-color: #F5FBFC;
     background-size: 100%, 100%;
     font-family: Optima;
     font-color: #FFFFFF;
@@ -13,35 +13,220 @@ li a {
     text-size:40px;
     text-decoration: none;
 }
+/*
+input[type=text] {
+    width: 120px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+*/
+
 .alternative:hover {
     r: 80px;
-    fill-opacity: 0.5;
+    fill-opacity: 1;
+    fill: url(#nirvana);
+    stroke: black;
+    strokeweight: 1px;
 }
-.jazz:hover {
-    r: 130px;
-    fill-opacity: 0.5;
+.alternative:hover + #alternative {
+    visibility: hidden;
 }
-.electronic:hover {
-    r: 80px;
-    fill-opacity: 0.5;
+.blues:hover {
+    r: 115px;
+    fill-opacity: 1;
+    fill: url(#king);
+    stroke: black;
+    strokeweight: 1px;
+}
+.blues:hover + #blues{
+    visibility: hidden;
 }
 .classical:hover {
     r: 120px;
-    fill-opacity: 0.5;
+    fill-opacity: 1;
+    fill: url(#mozart);
+    stroke: black;
+    strokeweight: 1px;
 }
-.latin:hover {
-    r: 110px;
-    fill-opacity: 0.5;
+.classical:hover + #classical {
+    visibility: hidden;
 }
-.opera:hover {
-    r: 70px;
-    fill-opacity: 0.5;
+.country:hover {
+    r: 80px;
+    fill-opacity: 1;
+    fill: url(#cash);
+    stroke: black;
+    strokeweight: 1px;
+}
+.country:hover + #country {
+    visibility: hidden;
+}
+.dance:hover {
+    r: 125px; 
+    fill-opacity: 1;
+    fill: url(#punk);
+    stroke: black;
+    strokeweight: 1px;
+}
+.dance:hover + #dance {
+    visibility: hidden;
+}
+.easy:hover {
+    r: 95px;
+    fill-opacity: 1;
+    fill: url(#frank);
+    stroke: black;
+    strokeweight: 1px;
+}
+.easy:hover + #easy {
+     visibility: hidden;
+}
+.electronic:hover {
+    r: 80px;
+    fill-opacity: 1;
+    fill: url(#four);
+    stroke: black;
+    strokeweight: 1px;
+}
+.electronic:hover + #electronic {
+   visibility: hidden;
 }
 .hipHop:hover {
-    r:105px;
-    fill-opacity: 0.5;
+    r: 105px;
+    fill-opacity: 1;
+    fill: url(#nas);
+    stroke: black;
+    strokeweight: 1px;
+}
+.hipHop:hover + #hipHop {
+   visibility: hidden;
+}
+.gospel:hover {
+    r: 85px;
+    fill-opacity: 1;
+    fill: url(#grace);
+    stroke: black;
+    strokeweight: 1px;
+}
+.gospel:hover + #gospel{
+   visibility: hidden;
+}
+.jazz:hover {
+    r: 130px;
+    fill-opacity: 1;
+    fill: url(#art);
+    stroke: black;
+    strokeweight: 1px;
+}
+.jazz:hover + #jazz{
+     visibility: hidden;
+}
+.latin:hover {
+    r: 113px;
+    fill-opacity: 1;
+    fill: url(#calle);
+    stroke: black;
+    strokeweight: 1px;
+   }
+.latin:hover + #latin {
+     visibility: hidden;
+}
+.new:hover {
+    r:100px;
+    fill-opacity: 1;
+    fill: url(#novus);
+    stroke: black;
+    strokeweight: 1px;
+}
+.new:hover + #new {
+    visibility: hidden;
+ }
+.opera:hover {
+    r: 70px;
+    fill-opacity: 1; 
+    fill: url(#andrea);
+    stroke: black;
+    strokeweight: 1px;
+}
+.opera:hover + #o {
+    visibility: hidden;
+}
+.pop:hover {
+    r: 140px;
+    fill-opacity: 1;
+    fill: url(#rumours);
+    stroke: black;
+    strokeweight: 1px;
+}
+.pop:hover + #pop {
+    visibility: hidden;
+}
+.reggae:hover {
+    r: 100px;
+    fill-opacity: 1;
+    fill: url(#jimmy);
+    stroke: black;
+    strokeweight: 1px;
+}
+.reggae:hover + #reggae {
+    visibility: hidden;
+}
+.rock:hover {
+    r: 125px;
+    fill-opacity: 1;
+    fill: url(#pink);
+    stroke: black;
+    strokeweight: 1px;
+}
+.rock:hover + #rock{
+    visibility: hidden;
+}
+.RB:hover {
+    r: 105px;
+    fill-opacity: 1;
+    fill: url(#destiny);
+    stroke: black;
+    strokeweight: 1px;
+}
+.RB:hover + #RB {
+    visibility: hidden;
 }
 .singer:hover {
     r: 110px;
-    fill-opacity: 0.5;
+    fill-opacity: 1;
+    fill: url(#joni);
+    stroke: black;
+    strokeweight: 1px;
+}
+.singer:hover + #singer {
+    visibility: hidden;
+}
+.soul:hover {
+    r: 115px;
+    fill-opacity: 1;
+    fill: url(#sam);
+    stroke: black;
+    strokeweight: 1px;
+}
+.soul:hover + #soul {
+    visibility: hidden;
+}
+.vocal:hover {
+    r: 105px;
+    fill-opacity: 1;
+    fill: url(#ella);
+    stroke: black;
+    strokeweight: 1px;
+}
+.vocal:hover + #vocal {
+    visibility: hidden;
 }
